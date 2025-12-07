@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insurance &amp; Reinsurance Intelligence</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Insurance &amp; Reinsurance Intelligence</h1>
+    <p class="subtitle">Latest Major Losses and M&amp;A news at a glance</p>
+  </header>
+
+  <main>
+    <section id="major-losses" class="news-section">
+      <div class="section-header">
+        <h2>Major Losses</h2>
+        <button id="refresh-losses" class="refresh-btn" aria-label="Refresh major losses">
+          &#x21bb;
+        </button>
+      </div>
+      <ul id="losses-list" class="news-list">
+        <li class="loading">Loading latest major losses…</li>
+      </ul>
+    </section>
+
+    <section id="mergers-acquisitions" class="news-section">
+      <div class="section-header">
+        <h2>Mergers &amp; Acquisitions</h2>
+        <button id="refresh-mergers" class="refresh-btn" aria-label="Refresh mergers and acquisitions">
+          &#x21bb;
+        </button>
+      </div>
+      <ul id="mergers-list" class="news-list">
+        <li class="loading">Loading latest M&amp;A news…</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Data sourced from <a href="https://www.reinsurancene.ws" target="_blank" rel="noopener">Reinsurance News</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
